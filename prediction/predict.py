@@ -4,7 +4,7 @@ from google.cloud import aiplatform
 aiplatform.init(project='bt-pp-dsc-1th4', location='europe-west1')
 
 endpoint = aiplatform.Endpoint(
-    endpoint_name="projects/871391074384/locations/europe-west1/endpoints/5276776204022579200" 
+    endpoint_name="projects/<your-numerical-project-number>/locations/europe-west1/endpoints/<your-endpoint-id>" 
 )
 
 # A test example we'll send to our model for prediction
